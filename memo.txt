@@ -1,0 +1,18 @@
+2018/8/25
+----------------
+・GitHub で test リポジトリ作成
+  作ったはいいが、無料だと private は作れない。
+  有料は $7/month
+
+  とりあえず、github 自体のテスト用リポジトリとする。
+
+・ローカルでこれやる↓
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dfx014/test.git
+git push -u origin master
+
+・ローカルで memo.txt つくる。ログる。
+
